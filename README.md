@@ -3,7 +3,7 @@
 This is the source code for my personal portfolio website, built as **Deliverables 1 & 2** of my web development journey. It features a modern, terminal-inspired aesthetic with a strong focus on web fundamentals, advanced responsive architecture, and accessibility.
 
 ## 🚀 Live Demo
-**[View Live Site](https://sharanbiradar20-hash.github.io/portfolio/)**
+**[View Live Site]([https://sharanbiradar20-hash.github.io/portfolio/](https://portfolio-ruddy-gamma-72.vercel.app/))**
 
 ## ✨ Key Features (Deliverables 1 & 2)
 
