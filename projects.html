@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Sharan Marulsidh Biradar | Full-Stack Web Developer</title>
+  <meta name="description" content="Explore projects built by Sharan Marulsidh Biradar — including Aphelion, a satellite tracking app. Built with Next.js, React, Node.js, and Express.">
+  <meta name="author" content="Sharan Marulsidh Biradar">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sharanmb.dev/projects">
+  <meta property="og:title" content="Projects — Sharan Marulsidh Biradar">
+  <meta property="og:description" content="Explore projects built by Sharan Marulsidh Biradar — including Aphelion, a satellite tracking app. Built with Next.js, React, Node.js, and Express.">
+  <meta property="og:site_name" content="Sharan Marulsidh Biradar">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Projects — Sharan Marulsidh Biradar">
+  <meta name="twitter:description" content="Explore projects built by Sharan Marulsidh Biradar — including Aphelion, a satellite tracking app. Built with Next.js, React, Node.js, and Express.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://sharanmb.dev/projects">
+
+  <!-- Structured Data (JSON-LD) — CreativeWork for project portfolio -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Projects — Sharan Marulsidh Biradar",
+    "description": "A curated collection of projects built by Sharan Marulsidh Biradar.",
+    "url": "https://sharanmb.dev/projects",
+    "author": {
+      "@type": "Person",
+      "name": "Sharan Marulsidh Biradar",
+      "email": "mailto:sharan.marulsidh@cmr.edu.in",
+      "url": "https://sharanmb.dev"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Aphelion",
+            "description": "A satellite tracking application that visualizes real-time orbital data.",
+            "url": "https://aphelion-sat.vercel.app/",
+            "author": {
+              "@type": "Person",
+              "name": "Sharan Marulsidh Biradar"
+            },
+            "keywords": ["Next.js", "React", "Node.js", "Express"]
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Theme init (prevent flash) -->
+  <script>
+    (function(){
+      try {
+        var t = localStorage.getItem('theme') === 'light' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+        document.documentElement.style.colorScheme = t;
+      } catch(e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Skip Link (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ============================================================
+         HEADER / NAVIGATION
+         ============================================================ -->
+    <header class="site-header" role="banner">
+      <div class="container nav-inner">
+        <!-- Logo -->
+        <a href="index.html" class="nav-logo" aria-label="Sharan Marulsidh Biradar — home">
+          <span class="nav-logo__dot" aria-hidden="true"></span>
+          sharan<span class="nav-logo__suffix">.dev</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav aria-label="Main navigation" class="nav-links" id="main-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="projects.html" class="nav-link" aria-current="page">Projects</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Actions -->
+        <div class="nav-actions">
+          <!-- Theme Toggle -->
+          <button type="button"
+                  id="theme-toggle"
+                  class="theme-toggle"
+                  aria-pressed="false"
+                  aria-label="Switch to light mode">
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+
+          <!-- Mobile Menu Toggle -->
+          <button type="button"
+                  id="mobile-menu-toggle"
+                  class="mobile-menu-toggle"
+                  aria-expanded="false"
+                  aria-controls="mobile-nav"
+                  aria-label="Toggle navigation menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link" aria-current="page">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- ============================================================
+         MAIN CONTENT
+         ============================================================ -->
+    <main id="main-content" tabindex="-1">
+
+      <!-- ========== PAGE HEADER ========== -->
+      <section class="page-header" aria-labelledby="page-heading">
+        <div class="container">
+          <span class="page-header__label" aria-hidden="true">[ PROJECTS ]</span>
+          <h1 id="page-heading" class="page-header__title">Things I've built.</h1>
+          <p class="page-header__desc">
+            A curated collection of projects I've designed and developed — from concept to deployment.
+          </p>
+        </div>
+      </section>
+
+      <!-- ========== PROJECTS GRID ========== -->
+      <section class="section" id="projects-list" aria-labelledby="projects-grid-heading">
+        <div class="container">
+          <h2 class="sr-only" id="projects-grid-heading">Project showcase</h2>
+
+          <div class="projects__grid" role="list">
+
+            <!-- Project Card: Aphelion -->
+            <article class="project-card" role="listitem" aria-labelledby="project-aphelion-title">
+              <div class="project-card__info">
+                <span class="project-card__number" aria-hidden="true">P/01</span>
+                <h3 class="project-card__title" id="project-aphelion-title">Aphelion</h3>
+                <p class="project-card__desc">
+                  "Aphelion is a web platform that processes, enhances, and visualizes satellite images using multiple digital image processing filters."
+                </p>
+
+                <ul class="project-card__tags" aria-label="Technologies used in Aphelion">
+                  <li class="tag">Next.js</li>
+                  <li class="tag">React</li>
+                  <li class="tag">Node.js</li>
+                  <li class="tag">Express</li>
+                </ul>
+
+                <div class="project-card__links">
+                  <a href="https://aphelion-sat.vercel.app/"
+                     class="btn btn--primary"
+                     id="project-aphelion-live"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="View Aphelion live site (opens in new tab)">
+                    Live Site
+                    <span class="btn__arrow" aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-card__preview" aria-label="Project preview placeholder" role="img">
+                <div class="terminal" aria-hidden="true">
+                  <div class="terminal__header">
+                    <span class="terminal__dot terminal__dot--red"></span>
+                    <span class="terminal__dot terminal__dot--yellow"></span>
+                    <span class="terminal__dot terminal__dot--green"></span>
+                    <span class="terminal__title">aphelion — ~/satellite-tracker</span>
+                  </div>
+                  <div class="terminal__body">
+                    <div class="terminal__line">
+                      <span class="terminal__prompt">❯ </span><span class="terminal__command">npm run dev</span>
+                    </div>
+                    <div class="terminal__line">
+                      <span class="terminal__output">> aphelion@1.0.0 dev</span>
+                    </div>
+                    <div class="terminal__line">
+                      <span class="terminal__output">> next dev</span>
+                    </div>
+                    <div class="terminal__line">&nbsp;</div>
+                    <div class="terminal__line">
+                      <span class="terminal__value">✓ Ready on http://localhost:3000</span>
+                    </div>
+                    <div class="terminal__line">
+                      <span class="terminal__output">> preview loading...</span>
+                    </div>
+                    <div class="terminal__line">
+                      <span class="terminal__prompt">❯ </span><span class="terminal__cursor"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CTA BANNER ========== -->
+      <section class="section" aria-labelledby="cta-heading" style="padding-block: clamp(40px, 8vh, 80px);">
+        <div class="container" style="text-align: center;">
+          <h2 id="cta-heading" class="section__title" style="margin-bottom: var(--space-lg);">
+            Have a project<br><span style="color: var(--color-primary);">in mind?</span>
+          </h2>
+          <p style="color: var(--color-text-muted); margin-bottom: var(--space-xl); max-width: 45ch; margin-inline: auto; font-size: 1rem; line-height: 1.6;">
+            I'm always open to new opportunities and exciting projects. Let's connect and build something great together.
+          </p>
+          <a href="contact.html" class="btn btn--primary" id="cta-projects-contact">
+            Get in touch
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer__inner">
+        <p class="footer__copyright">
+          © <time datetime="2025">2025</time> Sharan Marulsidh Biradar. All rights reserved.
+        </p>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="https://github.com/sharanbiradar20-hash" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:sharan.marulsidh@cmr.edu.in" class="footer__link">Email</a>
+          <a href="projects.html" class="footer__link" aria-current="page">Projects</a>
+        </nav>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
