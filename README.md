@@ -5,7 +5,7 @@ This is the source code for my personal portfolio website, built as **Deliverabl
 ## 🚀 Live Demo
 (https://portfolio-ruddy-gamma-72.vercel.app/))
 
-## ✨ Key Features (Deliverables 1 & 2)
+## ✨ Key Features
 
 - **Semantic HTML5 (Deliverable 1):** Built using strict, proper semantic tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`) for a crystal clear document structure.
 - **WCAG Accessibility (Deliverable 1):** 
